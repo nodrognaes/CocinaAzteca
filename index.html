@@ -9,29 +9,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <script src="https://kit.fontawesome.com/2bcb8c49ef.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <!-- <h4>Cocina Azteca</h4>
-            <p>Mexican Restaurant</p> -->
             <img src="assets/images/logo.png">
         </div>
         <nav>
             <a onclick="myFunction()" class="dropbtn">&#9776;</a>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#">About Us</a>
-                    <a href="#">Gallery</a>
-                    <a href="#">Contact</a>
+                    <a href="#">Menu</a>
+                    <a href="#contact">Contact</a>
                 </div>
         </nav>
     </header>
 
     <main>
         <section class="banner">
-
+            <img src="assets/images/aztec.png">
+            <div class="banner-text">
+                <h1>Welcome to</h1>
+                <h4>Cocina Azteca</h4>
+                <p>Mexican Restaurant</p>
+            </div>
         </section>
+
+        <section id="about">
+            <h2>-About Us-</h2>
+            <div class="about-text">
+                <p>fgshfgjndgjdg</p>
+            </div>
+        </section>
+
         <section class="review">
             <div class="review-cont">
                 <img src="assets/images/Screenshot 2021-11-10 124436.png" alt="tacos">
@@ -39,6 +50,28 @@
                     <span>&ldquo;</span>
                     <p>I have eaten here with my family for years. The ownership has changed, but the food and atmosphere are just the same!</p>
                     <span id="span2">&rdquo;</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>-Visit Us-</h2>
+            <div class="contact-contain">
+                <div class="cont-info">
+                    <ul>
+                        <li><i class='fas fa-phone'></i>: 856-914-9302</li>
+                        <li><i class='fas fa-map-marker-alt'></i>: 1155 NJ-73 <br>Mt. Laurel Township, NJ 08054</li>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.7160199836667!2d-74.95188108461899!3d39.92537087942521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c134dc0e8553c9%3A0x6d3d51a28fdb5fd0!2sCocina%20Azteca!5e0!3m2!1sen!2sus!4v1637182257623!5m2!1sen!2sus" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
+                    </ul>
+                </div>
+                <div class="hours">
+                    <h3>-Hours-</h3>
+                    <ul>
+                        <li>Monday – Thursday: 11:00am – 9:00pm</li>
+                        <li>Friday: 11:00am – 10:00pm</li>
+                        <li>Saturday: 12:00pm – 10:00pm</li>
+                        <li>Sunday: 12:00pm – 09:00pm</li>
+                    </ul>
                 </div>
             </div>
         </section>

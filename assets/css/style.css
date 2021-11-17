@@ -1,3 +1,8 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+
 header {
     text-align: center;
     display: flex;
@@ -18,23 +23,6 @@ header {
     width: 160px;
     padding: 5px;
 }
-
-/* .logo h4 {
-    font-family: "Dancing Script", Sans-serif;
-    font-size: 35px;
-    font-weight: 700;
-    text-shadow: 0px 0px 10px #23a455;
-    margin: 0;
-}
-
-.logo p {
-    font-family: "Verdana", Sans-serif;
-    font-size: 12px;
-    font-weight: 550;
-    text-shadow: 0px 0px 10px rgb(214 32 4 / 97%);
-    letter-spacing: 1.5px;
-    margin: 0px 0 5px 0;
-} */
 
 .dropbtn {
     text-decoration: none;
@@ -59,14 +47,14 @@ header {
     display: none;
     position: absolute;
     right: 12px;
-    background-color: rgb(255, 15, 15);
+    background-color: rgb(175, 0, 0);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: rgb(0, 73, 0);
+    color: rgb(216, 184, 0);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -84,16 +72,69 @@ header {
     display: block;
 }
 
+/*main*/
+main {
+    margin-top: 100px;
+}
+
+/*banner section */
+.banner {
+    display: flex;
+}
+
+.banner img {
+    display: block;
+    height: 400px;
+    width: auto;
+}
+
+.banner h4 {
+    font-family: "Dancing Script", Sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px #23a455;
+    margin: 0;
+}
+
+.banner p {
+    font-family: "Verdana", Sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    text-shadow: 0px 0px 10px rgb(214 32 4 / 97%);
+    letter-spacing: 1.5px;
+    margin: 0px 0 5px 0;
+}
+
+/* about */
+#about {
+    text-align: center;
+}
+
+.about-contain {
+    display: flex;
+}
+
+#about img {
+    height: 200px;
+    width: auto;
+}
+
 /* review section */
+.review {
+    display: flex;
+    justify-content: center;
+}
 
 .review-cont {
     background-color: lightgray;
-    padding: 40px;
-    margin: 10%;
+    padding: 50px;
+    margin: 60px;
+    width: 60%;
     height: 300px;
     border-radius: 10px;
     align-items: center;
     display: flex;
+    border: 8px black double;
 }
 
 .review img {
@@ -122,9 +163,26 @@ header {
     float: right;
 }
 
+/* Contact section */
+#contact {
+    text-align: center;
+}
+
+#contact li {
+    list-style: none;
+}
+
+#contact iframe {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
 /*footer*/
 footer {
+    color: lightgray;
     background-color: black;
     text-align: center;
     width: 100%;
+    padding: 1px;
+    bottom: 0;
 }
